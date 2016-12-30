@@ -97,7 +97,7 @@ function doGetRoles(IDS,callback,nextState) {
 			};
 			iam.getRole(GetRoleParams, function(err, data) {
 				if (err) {
-					console.log('Error encountered adding ingress rule: ' + err);
+					console.log('Error encountered getting role: ' + err);
 					callback(null,{});
 				} else {
 					var ROLE_ID = data.Role.Arn;
