@@ -8,7 +8,7 @@ This project is run with node and uses the AWS Javascript API.
 - Must have Node.js installed
 - Must install the AWS Javascript API (`npm install aws-sdk`)
 - Must install underscore.js for node (`npm install underscore`)
-- Must have an AWS account and have set up credentials for use with the API (aws configure or manually enter in `~/.aws/credentials`
+- Must have an AWS account and have set up credentials for use with the API (`aws configure` or manually enter in `~/.aws/credentials`
 - Must have the following permissions on your AWS user (grant through IAM):
     - IAMFullAccess
     - AmazonS3FullAccess
