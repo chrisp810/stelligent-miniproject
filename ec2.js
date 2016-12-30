@@ -79,7 +79,7 @@ function doCreateSecurityGroup(IDS,callback,nextState) {
 	});
 };
 
-// Create two EC2 roles
+// Retrieve the IDs for the OpsWorks role and instance profile
 function doGetRoles(IDS,callback,nextState) {
 	var GetInstanceGroupParams = {
 		InstanceProfileName: INSTANCE_PROFILE_NAME
