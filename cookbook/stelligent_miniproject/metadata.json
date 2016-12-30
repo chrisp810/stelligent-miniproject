@@ -1,0 +1,29 @@
+{
+  "name": "stelligent_miniproject",
+  "description": "Chris Piepenbring's Miniproject",
+  "license": "none",
+  "platforms": {
+  },
+  "dependencies": {
+    "application_javascript": "~> 1.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.0.1",
+  "source_url": "",
+  "issues_url": ""
+}
